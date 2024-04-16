@@ -1,0 +1,163 @@
+.form_search {
+    width: 50rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 3rem;
+    border-radius: 1.5rem;
+    align-items: center;
+}
+
+.div_input {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.container_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.form_search p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: var(--grayIntense);
+}
+
+.form_search h2 {
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.button_clean {
+    background-color: var(--grayIntense);
+}
+
+.container_results_primary {
+   
+    width: 120rem;
+
+}
+
+.container_results {
+    height: 26rem;
+    overflow-y: auto;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    gap: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+
+}
+
+.customer_item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: var(--black);
+    gap: 1rem;
+}
+
+.result_customer {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+}
+
+.buttons_customers {
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    gap: 1rem;
+}
+
+.form_edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.buttons_container_edit {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cancel {
+    background-color: var(--grayIntense);
+}
+
+.delete {
+    background-color: var(--background);
+}
+
+.button_new {
+    background-color: var(--background);
+}
+
+.header_results_container {
+    width: 120rem;
+    background-color: var(--white);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+
+}
+
+.header_elements {
+    width: 80%;
+    display: flex;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+
+.header_elements p {
+    margin: 0;
+}
+
+.customer_div {
+    display: flex;
+}
+
+.customer_code,
+.header_code {
+    width: 10%;
+}
+
+.customer_name,
+.header_name {
+    width: 40%;
+}
+
+.customer_email,
+.header_email {
+    width: 40%;
+}
+
+.title_delete {
+    margin-bottom: 1rem;
+}
+
+.buttons_container_delete {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
